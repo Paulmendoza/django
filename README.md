@@ -25,6 +25,8 @@ DJANGO_DEBUG=True
 SECRET_KEY=devsecret
 ```
 
+> Note: Uncomment 'static' in .gitignore file
+
 ### Scripts
 ```console
 // while in project directory

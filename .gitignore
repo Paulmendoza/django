@@ -1,5 +1,5 @@
 # Static content collected with manage.py collectstatic must not be committed
-static
+#static
 
 # The compiled tailwind file must not be committed.
 assets/css/tailwind.css
