@@ -32,6 +32,14 @@ dependencies = [
   "pytest-mock",    # pytest mocker
 ]
 
+# Dev environment
+[tool.hatch.envs.dev]
+template = "default"
+
+[tool.hatch.envs.dev.env-vars]
+DJANGO_DEBUG = "True"
+SECRET_KEY = "changeme"
+
 [tool.hatch.envs.default.scripts]
 runserver = "python manage.py tailwind runserver {args}"
 migrate = "python manage.py migrate {args}"

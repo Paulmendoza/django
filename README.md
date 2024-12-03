@@ -19,17 +19,11 @@ $ exit # exits default venv shell
 $ cd <projectname>
 ```
 
-> Note: Create a `.env` file in the base directory and add a key-value pair:
-```
-DJANGO_DEBUG=True
-SECRET_KEY=devsecret
-```
-
 > Note: Uncomment 'static' in .gitignore file
 
 ### Scripts
 ```console
 // while in project directory
-$ hatch run migrate
-$ hatch run runserver # Tailwind might be installed on first run
+$ hatch run dev:migrate
+$ hatch run dev:runserver # Tailwind might be installed on first run
 ```
