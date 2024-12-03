@@ -17,6 +17,7 @@ dependencies = [
   "django-htmx>=1.21.0",            # htmx helpers
   "django-tailwind-cli>=2.20.1",    # tailwind css support
   "whitenoise[brotli]>=6.8.2",      # static file support
+  "django-allauth[socialaccount]",  # auth
 ]
 
 [tool.hatch.version]
